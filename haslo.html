@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miernik jakości hasła</title>
+    <link rel="stylesheet" href="styl.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <section id="baner">
+        <h1><a href="index.html">Sprawdź swoje hasło</a></h1>
+    </section>
+    <section id="panel-lewy">
+        <h2>Wybierz</h2>
+        <ol>
+            <li><a href="haslo.html">Sprawdź hasło</a></li>
+            <li><a href="zasady.html">Zasady tworzenia hasła</a></li>
+        </ol>
+    </section>
+    <section id="panel-prawy">
+        <p>Twoje hasło: <input type="password" id="password"><button onclick="checkPassword()">Sprawdź</button></p>
+        <p id="result"></p>
+    </section>
+    <section id="stopka">
+        <h3>Miernik jakości hasła</h3>
+        <p>Stronę opracował: [TWOJ PESEL]</p>
+    </section>
+</body>
+</html>
